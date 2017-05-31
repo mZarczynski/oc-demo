@@ -1,0 +1,7 @@
+<html>
+
+  <h1>Hostname: {{ name }}</h1>
+
+{% for e in envs %}
+  <li>{{ e }} = {{ envs[e] }} </a></li>
+{% endfor %}
